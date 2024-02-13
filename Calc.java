@@ -31,6 +31,9 @@ public class Calc {
         }else if(d == 3){
             System.out.println(x*y);
         }else if(d == 4){
+            if(y == 0){
+                System.out.println("Error: Divide by Zero");
+            }else
             System.out.println(x/y);
         }
         
