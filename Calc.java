@@ -9,10 +9,10 @@ public class Calc {
         int d = 0;
         
         System.out.println("Enter a number:");
-        int x = scan.nextInt();
+        double x = scan.nextDouble();
 
         System.out.println("Enter a second number:");
-        int y = scan.nextInt();
+        double y = scan.nextDouble();
 
         System.out.println("Would you like addition, subtraction, multiplication or division?");
         System.out.println("Type 1 to add, 2 to subtract, 3 to multiply, 4 to divide");
